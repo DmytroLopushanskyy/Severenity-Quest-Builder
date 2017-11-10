@@ -1,0 +1,157 @@
+/*Login*/
+
+body{
+    margin: 0;
+}
+.login_part{
+    /*background*/
+    background-image: url("../img/login_background.png");
+    height: 100vh; 
+    width: 100vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*container style*/  
+}
+.login_form{
+    width: 550px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+.login_header{
+    height: 100px;
+    width: 100%;
+    background-color: #6d488d;
+    position: relative;
+}
+.login_logo{
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 70px
+}
+.lila{
+    color: #6d488d;
+}
+.welcome_text{
+    color: #8492af;
+    font-size: 40px;
+    text-align: center;
+    font-family: robotolight;
+}
+.login_input{
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid #8492af;
+    margin-left: 10px;
+    width: 250px;
+    height: 35px;
+    font-size: 20px;
+    color: #8492af;
+    font-family: robotolight;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/*label[for="login_label"] {
+    display: inline-block;
+}*/
+.login_input::-webkit-input-placeholder {color:#8492af; font-family: robotolight;}
+.login_input::-moz-placeholder          {color:#8492af; font-family: robotolight;}/* Firefox 19+ */
+.login_input:-moz-placeholder           {color:#8492af; font-family: robotolight;}/* Firefox 18- */
+.login_input:-ms-input-placeholder      {color:#8492af; font-family: robotolight;}
+
+.login_icon{
+    height: 20px;
+}
+.login_button{
+    background-color: #6d488d;
+    height: 50px;
+    width: 300px;
+    border-radius: 600px;
+    color: white;
+    font-size: 20px;
+    font-family: robotobold;
+    text-indent: 1%;
+    text-align: center;
+    position: relative;
+    border: 0;
+}
+.login_button:hover{
+    -webkit-box-shadow: 7px 10px 101px -1px #6d488d;
+-moz-box-shadow: 7px 10px 101px -1px #6d488d;
+box-shadow: 7px 10px 101px -1px #6d488d;
+}
+.login_button:focus{
+  outline: 0;
+}
+.login_arrow{
+    position: absolute;
+    right: 25px;
+    top: 19px;
+}
+@media (max-width: 600px){
+    .login_form{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+@media (max-width: 440px){
+    .login_logo{
+        height: 49px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
